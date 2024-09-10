@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BANG DIEM</title>
+    <link rel="stylesheet" href="score.css">
+</head>
+
+<body>
+    <div id="container">
+        <div class="title">
+            <h1 id="t-content">BANG DIEM CUA EM
+                <h1>
+        </div>
+        <div class="sermeter">
+            <div class="input">
+                <label for="smt1">sermeter 1</label>
+                <input type="text" name="smt1" id="smt1">
+            </div>
+            <div class="noti">
+                <p id="n1-infor"></p>
+            </div>
+        </div>
+        <div class="sermeter">
+            <div class="input">
+                <label for="smt2">sermeter 2</label>
+                <input type="text" name="smt2" id="smt2" disabled>
+            </div>
+            <div class="noti">
+                <p id="n2-infor"></p>
+            </div>
+        </div>
+        <div class="year">
+            <label for="years">Year</label>
+            <input type="number" name="years" min="1" max="2" id="years">
+        </div>
+        <div class="space">
+            <div class="spaces"></div>
+        </div>
+        <div class="output">
+            <div class="o-content">
+                <label for="score">Score</label>
+                <input type="text" name="score" id="score" readonly>
+            </div>
+            <div class="o-result">
+                <p id="show-result"> </p>
+            </div>
+        </div>
+        <div class="click">
+            <div class="but">
+                <button type="button" id="ok" onclick="ok(value1, value2, value3, output1, output2)">OK</button>
+            </div>
+            <div class="but">
+                <button type="button" id="reset" onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="score.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    width: 700px;
+    height: 550px;
+    margin-top: 100px;
+    border: 30px solid pink;
+}
+
+.title {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#t-content {
+    margin: 0px;
+}
+
+.sermeter {
+    height: 90px;
+}
+
+.input {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-size: 25px;
+}
+
+.input>input {
+    height: 30px;
+    width: 300px;
+    margin-left: 40px;
+}
+
+.noti>p {
+    margin: 0px;
+    margin-left: 300px;
+    font-size: 120%;
+}
+
+.year {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.year>input {
+    height: 30px;
+    width: 100px;
+    margin-left: 80px;
+    margin-right: 180px;
+}
+
+.space {
+    height: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spaces {
+    width: 65%;
+    height: 30px;
+    border-top: 5px solid pink;
+}
+
+.output {}
+
+.o-content {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#score {
+    height: 30px;
+    width: 300px;
+    margin-left: 90px;
+}
+
+.o-result {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.o-result>p {
+    height: 80%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.click {
+    display: flex;
+    height: 120px;
+}
+
+.but {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.but>button {
+    height: 50%;
+    width: 20%;
+    font-size: 20px;
+}

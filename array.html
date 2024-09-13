@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>May Tinh Tien</title>
+    <link rel="stylesheet" href="array.css">
+</head>
+
+
+<body>
+    <div id="container">
+        <div id="titleName">
+            <h1 id="title">NEW PRODUCT</h1>
+        </div>
+        <div id="infoInput">
+            <div id="product">
+                <div id="pName">
+                    <label for="enterPName">Product Name</label>
+                    <input type="text" name="enterPName" id="enterPName">
+                    <p id="noti1"></p>
+                </div>
+                <div id="pQuanlity">
+                    <label for="enterPQuanl">Quanlity</label>
+                    <input type="number" name="enterPQuanl" id="enterPQuanl" min="0">
+                    <p id="noti2"></p>
+                </div>
+            </div>
+            <div id="otherInfo">
+                <div id="pPrice">
+                    <label for="enterPPrice">Unit Price</label>
+                    <input type="number" name="enterPPrice" id="enterPPrice" min="0">
+                    <p id="noti3"></p>
+                </div>
+                <div id="pDiscount">
+                    <label for="enterPDc">Discount</label>
+                    <input type="number" name="enterPDc" id="enterPDc" min="0">
+                    <p id="noti4"></p>
+                </div>
+            </div>
+            <div id="click">
+                <button type="button" id="sell" onclick="sell()">Sell</button>
+                <button type="button" id="cancel" onclick="cancel()">Cancel</button>
+            </div>
+        </div>
+        <div id="infoOutput" style="display: none;">
+            <div id="bill">
+                <h1 id="b-title">Bill</h1>
+            </div>
+            <div id="head-table">
+                <table id="h-content">
+                    <tr>
+                        <th class="id">ID</th>
+                        <th class="pN">Product Name</th>
+                        <th class="q">Quanlity</th>
+                        <th class="up">Unit Price</th>
+                        <th class="d">Discount</th>
+                        <th class="sT">Subtotal</th>
+                    </tr>
+                </table>
+            </div>
+            <div id="body-table">
+                <table id="b-content">
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="array.js"></script>
+</body>
+
+</html>
